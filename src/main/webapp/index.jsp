@@ -10,7 +10,7 @@
 	<h2 style="color: blue; font-size: 40px;" align="center">WELCOME TO JENKINS CLASS</h2>
 	<h2 style="color: green; font-size: 40px;" align="center">THIS IS OUR DEPLOYMENT</h2>
 	<h2 style="color: black; font-size: 40px;" align="center">WE INTEGRATED NEXUS WITH JENKINS</h2>
-	<h2 style="color: pink; font-size: 40px;" align="center">THIS IS NEXUS TOPIC</h1>
+	<h1 style="color: pink; font-size: 40px;" align="center">nexus installed</h1>
 	
 	
     <h1>Href Attribute Example</h1>
