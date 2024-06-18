@@ -1,25 +1,72 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	
-    <title>Href Attribute Example</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        main {
+            padding: 1rem;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
-	<h1 style="color: violet; font-size: 40px;" align="center">shekelaaaaaaaaa </h1>
-	<h1 style="color: red; font-size: 40px;" align="center">THIS IS THE SECOND VERSION OF OUR APP</h1>
-	<h2 style="color: blue; font-size: 40px;" align="center">WELCOME TO JENKINS CLASS</h2>
-	<h2 style="color: green; font-size: 40px;" align="center">THIS IS OUR DEPLOYMENT</h2>
-	<h2 style="color: black; font-size: 40px;" align="center">WE INTEGRATED NEXUS WITH JENKINS</h2>
-	<h1 style="color: pink; font-size: 40px;" align="center">nexus installed</h1>
-	
-	
-    <h1>Href Attribute Example</h1>
-    <p>
-      <a href="https://www.freecodecamp.org/contribute/">The freeCodeCamp Contribution Page</a> shows you how and where you can contribute to freeCodeCamp's community and growth.
-    </p>
-  </body>
-</html><title>Href Attribute Example</title>
-	
-	
-	
-	
+    <header>
+        <h1>Welcome to My Simple Webpage</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <h2>Home</h2>
+        <p>This is the main content of the webpage. You can add more sections and content here.</p>
+        
+        <h2>About</h2>
+        <p>This section provides information about the webpage or the author.</p>
+        
+        <h2>Contact</h2>
+        <p>Details on how to contact the author or support can be added here.</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Simple Webpage</p>
+    </footer>
+</body>
+</html>
